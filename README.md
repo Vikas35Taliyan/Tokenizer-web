@@ -3,6 +3,8 @@
 A simple custom tokenizer built with Node.js and Express, designed to help understand how text is split into tokens and processed.
 This project is a lightweight demo for learning how tokenization works in natural language processing (NLP) systems.
 
+Live: https://tokenizer-web.netlify.app/
+
 🚀 Features
 
 Tokenize text into individual tokens
