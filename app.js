@@ -14,18 +14,6 @@ document.addEventListener("DOMContentLoaded", async () => {
       "Encoded: " + JSON.stringify(encoded);
   });
 
-  // Decode button
-  // document.getElementById("decodeBtn").addEventListener("click", () => {
-  //   const input = document.getElementById("inputText").value;
-  //   try {
-  //     const tokenIds = JSON.parse(input);
-  //     const decoded = decode(tokenIds);
-  //     document.getElementById("output").textContent = "Decoded: " + decoded;
-  //   } catch (err) {
-  //     document.getElementById("output").textContent =
-  //       "❌ Enter valid token ID array (e.g. [1,2,3])";
-  //   }
-  // });
   document.getElementById("decodeBtn").addEventListener("click", () => {
     let input = document.getElementById("decodeInput").value.trim();
 
